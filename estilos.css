@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+.fondoamarillo {
+    background-color: #fcee21;
+    width: 328.606px;
+}
+ .gris {
+    color: #808080;
+    font-size: 25.837px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 141.21px;
+ }
+
+ .black {
+    background-color: #000;
+    color: #fff;
+    font-size: 50.579px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font: 400 24px 'Roboto', sans-serif;
+    margin: auto;
+
+}
+
+main {
+    margin-left: 142px;
+}
+
+header {
+    margin-left: 135.6px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+h1 strong {
+    font-family: 'Coiny', cursive;
+    font-size: 88.28px;
+}
+
+
+.backyellow {
+    background-color: #fcee21;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+
+h2 {
+    font-size: 20px;
+    background-color: #fcee21;
+}
+
+h3 {
+    font-size: 26.42px;
+    background-color: #fcee21;
+
+}
+
+
+section p {
+    font-size: 22px
+}
+
+
+footer {
+    margin: auto;
+    background-color: #fcee21;
+}
+
+span {
+    color: #c1272e;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.name {
+    width: 534.12px;
+height: 54.323px;
+flex-shrink: 0;
+}
+.email {
+    width: 535.287px;
+    height: 55.377px;
+    flex-shrink: 0;
+}
+
+.redes {
+    display: flex;
+    margin-top: 154.44px;
+}
+
+.flex {
+    display: flex;
+}
+
+.footer-wapas {
+    color: #000;
+    font-family: Coiny;
+    font-size: 33.001px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+aside {
+    margin: 30px;
+}
+.mensaje{
+    width: 534.12px;
+    height: 173.975px;
+    flex-shrink: 0;
+}
+.boton_negro_enviar {
+    background-color: #000;
+    width: 281.512px;
+    height: 51.513px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    margin-right: 106.67px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-width: 3px;
+}
+
+.boton_negro_borrar {
+    background-color: #000;
+    width: 147.107px;
+    height: 51.513px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-width: 3px;
+    
+}
+button:hover {
+    background-color:#666;  
+}
+
+button:active{
+   background-color: #fcee21;
+   color: #000;
+    
+}
+
+input {
+    height: 40px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+form {
+    margin: auto;
+}
+footer h1 {
+    font-size: 33.001px;
+    margin-left: 142px;
+    margin-top: 24.65px;
+    margin-bottom: 36.5px;
+    font-family: 'Coiny', cursive;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section {
+    width: 45%;
+}
+
+h4 {
+    font-size: 40.857px;
+    margin: auto;
+    margin-bottom: 62px;
+}
+
+
+
+a {
+    color: black;
+
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0%;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 104.44px;
+    margin-top: 30.65px ;
+    margin-bottom: 43.23px ;
+
+}
+
+footer a:hover, nav a:hover { text-decoration: underline;
+
+}
+
+ol {
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+list-style-position: inside;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin:  0%;
+    text-align: center;
+    width: 100%;
+}
+
+.inicio {
+    margin-right: 96.02px;
+}
+
+.servicios {
+    margin-right: 86.83px;
+
+}
+
+ol li {
+    margin-bottom: 22.24px;
+}
+
+ul li {
+    margin-top: 77.74px;
+    text-align: right;
+    margin-right: 142.3px;
+
+}
+
+nav {
+    margin: 0%;
+}
+
+
+
+#instagram {
+    width: 117.513px;
+    height: 106.143px;
+    flex-shrink: 0;
+    margin-right: 167.05px;
+
+}
+
+#dribbble{
+    width: 117.513px;
+    height: 106.143px;
+    flex-shrink: 0;
+    margin-right: 156.68px;
+
+}
+
+#linkedin{
+    width: 116.897px;
+    height: 106.143px;
+    flex-shrink: 0;
+    margin-right: 169.97px;
+}
+#facebook {
+    width: 115.208px;
+    height: 104.062px;
+    flex-shrink: 0;
+}
+
+#imagen {
+    width: 552px;
+    height: 537px;
+    flex-shrink: 0;
+}
+#logo {
+    width: 240.785px;
+    height: 56.193px;
+    flex-shrink: 0;
+    margin-top: 58.27px;
+    margin-left: 135.95px;
+}
+
+.margin-logos{
+    margin-top: 154.44px;
+}
+
+.foto {
+    width: 687.794px;
+    height: 549.445px;
+}
