@@ -22,12 +22,13 @@
  .black {
     background-color: #000;
     color: #fff;
-    font-size: 51px;
+    font-size: 40px;
     font-style:normal;
     font-weight: 700;
     line-height: 100px;
     padding: 10px;
     display: inline;
+    width: 500px;
 }
 
 body {
@@ -38,15 +39,11 @@ body {
 
 }
 
-main {
-    margin-left: 142px;
-}
 
 header {
-    margin-left: 135.6px;
+
     margin-top: 104.42px;
     margin-bottom: 65px;
-    display: flex;
 }
 
 header p {
@@ -60,6 +57,9 @@ h1 strong {
     font-size: 88.28px;
 }
 
+.section {
+    display: block;
+}
 
 .backyellow {
     background-color: #fcee21;
@@ -79,17 +79,13 @@ header h1 {
 h2 {
     font-size: 20px;
     background-color: #fcee21;
-    width: 552px;
+    width: 483px;
 }
 
-#h3sofi {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 353px;
+h3 {
     background-color: #fcee21;
-    margin: 0%;
-    margin-bottom: 12px;
+    width: 353px;
+    margin-top: 0%;
 }
 
 #h3gestion {
@@ -113,7 +109,7 @@ h2 {
 }
 
 .margin215left {
-    margin-left: 215px;
+    margin-left: 300px;
 }
 
 footer {
@@ -147,6 +143,7 @@ flex-shrink: 0;
 
 .flex {
     display: flex;
+    justify-content: center;
 }
 
 .footer-wapas {
@@ -231,15 +228,19 @@ footer h1 {
     font-weight: 400;
     line-height: normal;
 }
-
+.margine {
+    margin-top: 105px;
+}
 
 h4 {
     font-size: 40.857px;
     margin-bottom: 62px;
+    margin-top: 0%;
 }
 
 svg {
     margin-top: 94.34px;
+    margin-bottom: 105px;
 }
 
 a {
@@ -251,6 +252,7 @@ a {
 nav a {
     margin: 0%;
     text-decoration: none;
+
 }
 
 footer a {
@@ -273,10 +275,11 @@ div img:hover {
 
 ol {
     font-family: 'Roboto', sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 28px;
-list-style-position: inside;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    list-style-position: inside;
+    padding: 0%;
 
 }
 
@@ -313,20 +316,21 @@ ul li a {
 
 nav {
     margin: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
 }
 
 .parrafo22px {
     font-size: 22px;
     margin: auto;
-    width: 553px;
-    height: 192px;
+    margin-left: 0%;
+    width: 400px;
+    text-align: justify;
 }
 
-.parrafo22px2 {
-    width: 516px;
-    height: 173px;
-    margin: auto;
-}
+
 
 #instagram {
     width: 117.513px;
@@ -375,10 +379,26 @@ nav {
 
 .foto {
 width: 600px;
-
+}
+#marginfoto {
+    margin-left: 100px;
 }
 
 .logowapas{
     width: 552px;
     height: 537px;
+    margin-right: 300px;
+    margin-left: 0%;
+
+}
+
+.width400 {
+    width: 400px;
+    text-align: justify;
+}
+
+.marginright300 {
+    margin-right: 300px;
+    margin-left: 50px;
+
 }
