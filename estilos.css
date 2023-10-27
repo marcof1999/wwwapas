@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 .fondoamarillo {
     background-color: #fcee21;
@@ -86,6 +90,8 @@ h3 {
     background-color: #fcee21;
     width: 353px;
     margin-top: 0%;
+    margin-bottom: 12px;
+
 }
 
 #h3gestion {
@@ -115,6 +121,7 @@ h3 {
 footer {
     margin: auto;
     background-color: #fcee21;
+    display: flex;
 }
 
 span {
@@ -127,8 +134,8 @@ label {
 }
 .name {
     width: 534.12px;
-height: 54.323px;
-flex-shrink: 0;
+    height: 54.323px;
+    flex-shrink: 0;
 }
 .email {
     width: 535.287px;
@@ -141,10 +148,6 @@ flex-shrink: 0;
     margin-top: 154.44px;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
-}
 
 .footer-wapas {
     color: #000;
@@ -228,9 +231,6 @@ footer h1 {
     font-weight: 400;
     line-height: normal;
 }
-.margine {
-    margin-top: 105px;
-}
 
 h4 {
     font-size: 40.857px;
@@ -241,6 +241,8 @@ h4 {
 svg {
     margin-top: 94.34px;
     margin-bottom: 105px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 a {
@@ -264,8 +266,8 @@ footer a {
 
 }
 
-footer a:hover, nav a:hover { text-decoration: underline;
-
+footer a:hover, nav a:hover { 
+    text-decoration: underline;
 }
 
 div img:hover {
