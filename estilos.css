@@ -130,8 +130,16 @@ span {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 70px;
 }
+label input {
+    margin-top: 12px;
+}
+
+label textarea {
+    margin-top: 12px;
+}
+
 .name {
     width: 534.12px;
     height: 54.323px;
@@ -390,7 +398,7 @@ width: 600px;
 .logowapas{
     width: 552px;
     height: 537px;
-    margin-right: 300px;
+    margin-right: 200px;
     margin-left: 0%;
 
 }
