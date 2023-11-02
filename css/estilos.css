@@ -134,10 +134,12 @@ label {
 }
 label input {
     margin-top: 12px;
+    background-color: transparent;
 }
 
 label textarea {
     margin-top: 12px;
+    background-color: transparent;
 }
 
 .name {

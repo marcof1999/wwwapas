@@ -14,12 +14,12 @@ $message = "
 </head>
 <body>
 <h1>Información del formulario</h1>
-<p>Nombre: $nombre </p> 
-<p>Email: $email </p> 
-<p>Comentarios: $comentarios </p> 
-<p>Menú: $menu </p> 
+<p>Nombre: $nombre </p>
+<p>Email: $email </p>
+<p>Comentarios: $comentarios </p>
+<p>Menú: $menu </p>
 </body>
 </html>";
- echo 'Gracias por comunicarse con nosotros';
+echo 'Gracias por comunicarse con nosotros';
 mail($to, $subject, $message, $headers);
 ?>
